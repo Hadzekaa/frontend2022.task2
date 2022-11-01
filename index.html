@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/utility.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/index.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <title>Верстка проекта</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container center">            
+                <img class="logo" src="images/logo.png" alt="Логотип ИКИТ">
+            
+            <nav class="nav">
+                <ul class="nav__menu">
+                    <li class="nav__el"><button  class="nav__btn active">Главная </button></li>
+                    <li class="nav__el"><button  class="nav__btn">Информация</button></li>
+                    <li class="nav__el"><button  class="nav__btn">Новости</button></li>
+                    <li class="nav__el"><button  class="nav__btn">Контакты</button></li>
+                </ul>
+            </nav>
+
+            <div class="profile">
+                <span class="profile__name">Володькина Ю.П.</span>
+                <img class="profile__avatar" src="images/Avatar.png" alt="Avatar">
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <h1 class="container__title">Личная страница</h1>
+        <article class="article">
+            <h2 class="article__subtitle">Полезная информация</h2>
+            <div class="article__info">
+                <section class="sidebar">
+                    <h3 class="sidebar__title">
+                        Заголовок
+                    </h3>
+                    <ul class="sidebar__list">
+                        <li class="sidebar__listEl">Список 1</li>
+                        <li class="sidebar__listEl">Список 2</li>
+                        <li class="sidebar__listEl">Список 3</li>
+                        <li class="sidebar__listEl">Список 4</li>
+                    </ul>
+                </section>
+                <section class="news">
+                    <h3 class="news__title">СФУ и Россий­ский универ­ситет спорта стали парт­нёрами</h3>
+                    <section class="news__card">
+                        <h4 class="news__subtitle">Заголовок</h4>
+                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea
+                            commodo consequat. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.
+                        </p>
+                    </section>
+                    <section class="news__card">
+                        <h4 class="news__subtitle">Заголовок</h4>
+                        <p class="news__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor
+                            incididunt ut labore et dolore magna
+                            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                            ex ea
+                            commodo consequat. Duis
+                            aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                            pariatur. Excepteur sint
+                            occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                            laborum.
+                        </p>
+                    </section>
+                </section>
+            </div>
+        </article>
+
+
+        <article class="article">
+            <h2 class="article__subtitleCenter">Интересные статьи</h2>
+            <p class="article__description">Описать, о чем эти статьи, кратко</p>
+
+            <div class="card">
+
+                <section class="section">
+                    <img class="section__image" src="images/Image_1.png" alt="image">
+                    <div class="content">
+                        <h4 class="content__title">Boost your conversion rate</h4>
+                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
+                            accusantium praesentium eius, ut atque fuga culpa,
+                            similique sequi cum eos quis dolorum.</p>
+
+                        <p class="content__supportingtext">Mar 16, 2020 · 6 min read</p>
+
+                    </div>
+                </section>
+
+                <section class="section">
+                    <img class="section__image" src="images/Image_2.png" alt="image">
+                    <div class="content">
+                        <h4 class="content__title">How to use search engine optimization to drive sales</h4>
+                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit facilis
+                            asperiores porro quaerat doloribus, eveniet
+                            dolore. Adipisci tempora aut inventore optio animi., tempore temporibus quo laudantium.</p>
+
+                        <p class="content__supportingtext">Mar 10, 2020 · 4 min read</p>
+
+                    </div>
+                </section>
+
+                <section class="section">
+                    <img class="section__image" src="images/Image_3.png" alt="image">
+                    <div class="content">
+                        <h4 class="content__title">Improve your customer experience</h4>
+                        <p class="content__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint harum rerum
+                            voluptatem quo recusandae magni placeat saepe
+                            molestiae, sed excepturi cumque corporis perferendis hic.</p>
+
+                        <p class="content__supportingtext">Feb 12, 2020 · 11 min read</p>
+
+                    </div>
+                </section>
+
+            </div>
+        </article>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p class="footer__text">© 2022 Институт космических и информационных технологий СФУ</p>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
